@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA7466B2C8866960066E6FB /* HoursOfPraise_ConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7466A2C8866960066E6FB /* HoursOfPraise_ConnectApp.swift */; };
+		CEA7466D2C8866960066E6FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7466C2C8866960066E6FB /* ContentView.swift */; };
+		CEA7466F2C8866990066E6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA7466E2C8866990066E6FB /* Assets.xcassets */; };
+		CEA746722C8866990066E6FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA746712C8866990066E6FB /* Preview Assets.xcassets */; };
+		CEA746742C8866990066E6FB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA746732C8866990066E6FB /* Persistence.swift */; };
+		CEA746772C8866990066E6FB /* HoursOfPraise_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA746752C8866990066E6FB /* HoursOfPraise_Connect.xcdatamodeld */; };
+		CEA746812C88669A0066E6FB /* HoursOfPraise_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA746802C88669A0066E6FB /* HoursOfPraise_ConnectTests.swift */; };
+		CEA7468B2C88669A0066E6FB /* HoursOfPraise_ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7468A2C88669A0066E6FB /* HoursOfPraise_ConnectUITests.swift */; };
+		CEA7468D2C88669A0066E6FB /* HoursOfPraise_ConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7468C2C88669A0066E6FB /* HoursOfPraise_ConnectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA7467D2C88669A0066E6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA7465F2C8866960066E6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA746662C8866960066E6FB;
+			remoteInfo = "HoursOfPraise-Connect";
+		};
+		CEA746872C88669A0066E6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA7465F2C8866960066E6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA746662C8866960066E6FB;
+			remoteInfo = "HoursOfPraise-Connect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA746672C8866960066E6FB /* HoursOfPraise-Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HoursOfPraise-Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA7466A2C8866960066E6FB /* HoursOfPraise_ConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursOfPraise_ConnectApp.swift; sourceTree = "<group>"; };
+		CEA7466C2C8866960066E6FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA7466E2C8866990066E6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA746712C8866990066E6FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA746732C8866990066E6FB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CEA746762C8866990066E6FB /* HoursOfPraise_Connect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HoursOfPraise_Connect.xcdatamodel; sourceTree = "<group>"; };
+		CEA7467C2C88669A0066E6FB /* HoursOfPraise-ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HoursOfPraise-ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA746802C88669A0066E6FB /* HoursOfPraise_ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursOfPraise_ConnectTests.swift; sourceTree = "<group>"; };
+		CEA746862C88669A0066E6FB /* HoursOfPraise-ConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HoursOfPraise-ConnectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA7468A2C88669A0066E6FB /* HoursOfPraise_ConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursOfPraise_ConnectUITests.swift; sourceTree = "<group>"; };
+		CEA7468C2C88669A0066E6FB /* HoursOfPraise_ConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursOfPraise_ConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA746642C8866960066E6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA746792C88669A0066E6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA746832C88669A0066E6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA7465E2C8866960066E6FB = {
+			isa = PBXGroup;
+			children = (
+				CEA746692C8866960066E6FB /* HoursOfPraise-Connect */,
+				CEA7467F2C88669A0066E6FB /* HoursOfPraise-ConnectTests */,
+				CEA746892C88669A0066E6FB /* HoursOfPraise-ConnectUITests */,
+				CEA746682C8866960066E6FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA746682C8866960066E6FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA746672C8866960066E6FB /* HoursOfPraise-Connect.app */,
+				CEA7467C2C88669A0066E6FB /* HoursOfPraise-ConnectTests.xctest */,
+				CEA746862C88669A0066E6FB /* HoursOfPraise-ConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA746692C8866960066E6FB /* HoursOfPraise-Connect */ = {
+			isa = PBXGroup;
+			children = (
+				CEA7466A2C8866960066E6FB /* HoursOfPraise_ConnectApp.swift */,
+				CEA7466C2C8866960066E6FB /* ContentView.swift */,
+				CEA7466E2C8866990066E6FB /* Assets.xcassets */,
+				CEA746732C8866990066E6FB /* Persistence.swift */,
+				CEA746752C8866990066E6FB /* HoursOfPraise_Connect.xcdatamodeld */,
+				CEA746702C8866990066E6FB /* Preview Content */,
+			);
+			path = "HoursOfPraise-Connect";
+			sourceTree = "<group>";
+		};
+		CEA746702C8866990066E6FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEA746712C8866990066E6FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA7467F2C88669A0066E6FB /* HoursOfPraise-ConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA746802C88669A0066E6FB /* HoursOfPraise_ConnectTests.swift */,
+			);
+			path = "HoursOfPraise-ConnectTests";
+			sourceTree = "<group>";
+		};
+		CEA746892C88669A0066E6FB /* HoursOfPraise-ConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA7468A2C88669A0066E6FB /* HoursOfPraise_ConnectUITests.swift */,
+				CEA7468C2C88669A0066E6FB /* HoursOfPraise_ConnectUITestsLaunchTests.swift */,
+			);
+			path = "HoursOfPraise-ConnectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA746662C8866960066E6FB /* HoursOfPraise-Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA746902C88669A0066E6FB /* Build configuration list for PBXNativeTarget "HoursOfPraise-Connect" */;
+			buildPhases = (
+				CEA746632C8866960066E6FB /* Sources */,
+				CEA746642C8866960066E6FB /* Frameworks */,
+				CEA746652C8866960066E6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HoursOfPraise-Connect";
+			productName = "HoursOfPraise-Connect";
+			productReference = CEA746672C8866960066E6FB /* HoursOfPraise-Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA7467B2C88669A0066E6FB /* HoursOfPraise-ConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA746932C88669A0066E6FB /* Build configuration list for PBXNativeTarget "HoursOfPraise-ConnectTests" */;
+			buildPhases = (
+				CEA746782C88669A0066E6FB /* Sources */,
+				CEA746792C88669A0066E6FB /* Frameworks */,
+				CEA7467A2C88669A0066E6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA7467E2C88669A0066E6FB /* PBXTargetDependency */,
+			);
+			name = "HoursOfPraise-ConnectTests";
+			productName = "HoursOfPraise-ConnectTests";
+			productReference = CEA7467C2C88669A0066E6FB /* HoursOfPraise-ConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA746852C88669A0066E6FB /* HoursOfPraise-ConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA746962C88669A0066E6FB /* Build configuration list for PBXNativeTarget "HoursOfPraise-ConnectUITests" */;
+			buildPhases = (
+				CEA746822C88669A0066E6FB /* Sources */,
+				CEA746832C88669A0066E6FB /* Frameworks */,
+				CEA746842C88669A0066E6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA746882C88669A0066E6FB /* PBXTargetDependency */,
+			);
+			name = "HoursOfPraise-ConnectUITests";
+			productName = "HoursOfPraise-ConnectUITests";
+			productReference = CEA746862C88669A0066E6FB /* HoursOfPraise-ConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA7465F2C8866960066E6FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CEA746662C8866960066E6FB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CEA7467B2C88669A0066E6FB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEA746662C8866960066E6FB;
+					};
+					CEA746852C88669A0066E6FB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEA746662C8866960066E6FB;
+					};
+				};
+			};
+			buildConfigurationList = CEA746622C8866960066E6FB /* Build configuration list for PBXProject "HoursOfPraise-Connect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA7465E2C8866960066E6FB;
+			productRefGroup = CEA746682C8866960066E6FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA746662C8866960066E6FB /* HoursOfPraise-Connect */,
+				CEA7467B2C88669A0066E6FB /* HoursOfPraise-ConnectTests */,
+				CEA746852C88669A0066E6FB /* HoursOfPraise-ConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA746652C8866960066E6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA746722C8866990066E6FB /* Preview Assets.xcassets in Resources */,
+				CEA7466F2C8866990066E6FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA7467A2C88669A0066E6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA746842C88669A0066E6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA746632C8866960066E6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA746742C8866990066E6FB /* Persistence.swift in Sources */,
+				CEA746772C8866990066E6FB /* HoursOfPraise_Connect.xcdatamodeld in Sources */,
+				CEA7466D2C8866960066E6FB /* ContentView.swift in Sources */,
+				CEA7466B2C8866960066E6FB /* HoursOfPraise_ConnectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA746782C88669A0066E6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA746812C88669A0066E6FB /* HoursOfPraise_ConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA746822C88669A0066E6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA7468D2C88669A0066E6FB /* HoursOfPraise_ConnectUITestsLaunchTests.swift in Sources */,
+				CEA7468B2C88669A0066E6FB /* HoursOfPraise_ConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA7467E2C88669A0066E6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA746662C8866960066E6FB /* HoursOfPraise-Connect */;
+			targetProxy = CEA7467D2C88669A0066E6FB /* PBXContainerItemProxy */;
+		};
+		CEA746882C88669A0066E6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA746662C8866960066E6FB /* HoursOfPraise-Connect */;
+			targetProxy = CEA746872C88669A0066E6FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEA7468E2C88669A0066E6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA7468F2C88669A0066E6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA746912C88669A0066E6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoursOfPraise-Connect/Preview Content\"";
+				DEVELOPMENT_TEAM = 93629N9B84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA746922C88669A0066E6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoursOfPraise-Connect/Preview Content\"";
+				DEVELOPMENT_TEAM = 93629N9B84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEA746942C88669A0066E6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93629N9B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoursOfPraise-Connect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoursOfPraise-Connect";
+			};
+			name = Debug;
+		};
+		CEA746952C88669A0066E6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93629N9B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-ConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoursOfPraise-Connect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoursOfPraise-Connect";
+			};
+			name = Release;
+		};
+		CEA746972C88669A0066E6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93629N9B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-ConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HoursOfPraise-Connect";
+			};
+			name = Debug;
+		};
+		CEA746982C88669A0066E6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93629N9B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-ConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HoursOfPraise-Connect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA746622C8866960066E6FB /* Build configuration list for PBXProject "HoursOfPraise-Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA7468E2C88669A0066E6FB /* Debug */,
+				CEA7468F2C88669A0066E6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA746902C88669A0066E6FB /* Build configuration list for PBXNativeTarget "HoursOfPraise-Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA746912C88669A0066E6FB /* Debug */,
+				CEA746922C88669A0066E6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA746932C88669A0066E6FB /* Build configuration list for PBXNativeTarget "HoursOfPraise-ConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA746942C88669A0066E6FB /* Debug */,
+				CEA746952C88669A0066E6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA746962C88669A0066E6FB /* Build configuration list for PBXNativeTarget "HoursOfPraise-ConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA746972C88669A0066E6FB /* Debug */,
+				CEA746982C88669A0066E6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEA746752C8866990066E6FB /* HoursOfPraise_Connect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEA746762C8866990066E6FB /* HoursOfPraise_Connect.xcdatamodel */,
+			);
+			currentVersion = CEA746762C8866990066E6FB /* HoursOfPraise_Connect.xcdatamodel */;
+			path = HoursOfPraise_Connect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEA7465F2C8866960066E6FB /* Project object */;
+}
